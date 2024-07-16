@@ -15,7 +15,7 @@ hero:
 
         - theme: alt
           text: Github
-          link: https://github.com/hacxy/library-complete-template
+          link: https://github.com/Leexiaop/buzz
 
 features:
     - icon: 📦

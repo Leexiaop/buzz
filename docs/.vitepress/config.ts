@@ -38,7 +38,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/hacxy/library-complete-template'
+        link: 'https://github.com/Leexiaop/buzz'
       }
     ],
     search: {

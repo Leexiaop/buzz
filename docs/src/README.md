@@ -2,10 +2,10 @@
 
 ***
 
-# Library Complete Template
+# buzz简介
 
-This is a JavaScript library project development template with complete infrastructure and developed using TypeScript to help you quickly build a JavaScript utility library that automatically generates documentation.
+这是一个具有完整基础设施并且使用 typescript 开发的 javascript 库项目开发模板, 帮助你快速搭建一个自动生成文档的 javascript 工具库.
 
-# adafsad
+# 用法
 
-dadaaaaaaaaaaaaaaaaaaaaaaaa
+执行命令`npm i buzz`
