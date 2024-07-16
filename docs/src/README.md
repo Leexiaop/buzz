@@ -79,18 +79,23 @@ buzz/
 
 ````ts
 /**
- * @name 这是一个说hello的方法
+ * @name 这是一个计算俩数相加的方法
  * @group 工具函数
- * @param name 名称
- * @returns
+ * @param a number类型，必传
+ * @param b number类型，必传
+ * @returns (number) 返回一个俩数相加后的number
  * @example
  * ```ts
- * console.log(sayHello('hacxy')); // Hello, hacxy!
+ * console.log(add(2，4)); // 6
  * ```
  */
-export const add = (name: string): string => {
-  return `Hello, ${name}!`;
+export const add = (a: number, b: number): number => {
+  return a + b;
 };
 ````
+
+其中group字段应该为`['数组', '集合', '函数', '语言', '数学', '数字', '对象', 'Seq', '字符串', '实用函数', '其他']`。
+
+## 测试用例
 
 # 项目搭建流程

@@ -1,3 +1,3 @@
-// import { helloWorld } from '../dist';
+import { add } from '../dist';
 
-// console.log(helloWorld());
+console.log(add(1, 2));  //  3

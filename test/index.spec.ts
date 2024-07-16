@@ -1,9 +1,6 @@
-// import { expect, test } from 'vitest';
+import { expect, test } from 'vitest';
+import { add } from '../src/add';
 
-// test('测试示例方法, 无输入, 返回 "Hello, World!"', () => {
-//   expect(helloWorld()).toBe('Hello, World!');
-// });
-
-// test('sayHello, 输入"hacxy" 返回"Hello, hacxy!"', () => {
-//   expect(sayHello('hacxy')).toBe('Hello, hacxy!');
-// });
+test('add, 输入number"1, 3" 返回number"4"', () => {
+	expect(add(1, 3)).toBe(4);
+});
