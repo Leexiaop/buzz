@@ -19,4 +19,4 @@
 
 ## 查看源码
 
-add.ts:7
+[add.ts:7](https://github.com/Leexiaop/buzz/blob/15524ab5ee214a3b95c0a46373b4034a00f69c78/src/add.ts#L7)

@@ -18,4 +18,4 @@
 
 ## 查看源码
 
-map.ts:1
+[map.ts:1](https://github.com/Leexiaop/buzz/blob/15524ab5ee214a3b95c0a46373b4034a00f69c78/src/map.ts#L1)
