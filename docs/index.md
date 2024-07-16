@@ -2,7 +2,7 @@
 layout: home
 title: Home
 hero:
-    name: Buzz
+    name: Buzzs
     text: 开箱即用适配任何项目的 Javascript 工具库
     actions:
         - theme: brand

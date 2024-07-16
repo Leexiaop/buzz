@@ -1,8 +1,8 @@
-[**buzz**](README.md) • **Docs**
+[**buzzs**](README.md) • **Docs**
 
 ***
 
-# buzz
+# buzzs
 
 ## 函数
 

@@ -1,8 +1,10 @@
-[**buzz**](../README.md) • **Docs**
+[**buzzs**](../README.md) • **Docs**
 
 ***
 
 # 函数: add()
+
+### 这是一个计算俩数相加的方法
 
 > **add**(`a`, `b`): `number`
 
@@ -10,13 +12,21 @@
 
 | 参数名 | 类型 | 描述 |
 | :------ | :------ | :------ |
-| `a` | `number` | 参数为number类型 |
-| `b` | `number` | 参数为number类型 |
+| `a` | `number` | 要求是一个number, 必传 |
+| `b` | `number` | 要求是一个number, 必传 |
 
 ## 返回值类型
 
 `number`
 
+(number) 返回俩个数相加后的结果
+
+## 示例
+
+```ts
+console.log(add(3, 4)); // 7
+```
+
 ## 查看源码
 
-[add.ts:7](https://github.com/Leexiaop/buzz/blob/15524ab5ee214a3b95c0a46373b4034a00f69c78/src/add.ts#L7)
+[add.ts:13](https://github.com/Leexiaop/buzz/blob/a5d6351e071ecbeea37600f20fe8bfe5735cbd38/src/add.ts#L13)

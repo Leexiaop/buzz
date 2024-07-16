@@ -1,4 +1,4 @@
-[**buzz**](../README.md) • **Docs**
+[**buzzs**](../README.md) • **Docs**
 
 ***
 
@@ -12,4 +12,4 @@
 
 ## 查看源码
 
-[filter.ts:1](https://github.com/Leexiaop/buzz/blob/15524ab5ee214a3b95c0a46373b4034a00f69c78/src/filter.ts#L1)
+[filter.ts:1](https://github.com/Leexiaop/buzz/blob/a5d6351e071ecbeea37600f20fe8bfe5735cbd38/src/filter.ts#L1)
