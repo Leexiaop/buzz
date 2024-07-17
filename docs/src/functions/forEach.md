@@ -12,4 +12,4 @@
 
 ## 查看源码
 
-[forEach.ts:1](https://github.com/Leexiaop/buzz/blob/a5d6351e071ecbeea37600f20fe8bfe5735cbd38/src/forEach.ts#L1)
+[forEach.ts:1](https://github.com/Leexiaop/buzz/blob/b2cfe19d5fac90ddf9bfdd44aee841936c52d561/src/forEach.ts#L1)

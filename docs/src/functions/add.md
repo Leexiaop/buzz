@@ -29,4 +29,4 @@ console.log(add(3, 4)); // 7
 
 ## 查看源码
 
-[add.ts:13](https://github.com/Leexiaop/buzz/blob/a5d6351e071ecbeea37600f20fe8bfe5735cbd38/src/add.ts#L13)
+[add.ts:13](https://github.com/Leexiaop/buzz/blob/b2cfe19d5fac90ddf9bfdd44aee841936c52d561/src/add.ts#L13)

@@ -42,8 +42,9 @@ const updatePackage = (content) => {
 		pkg = JSON.parse(pkg);
 		pkg.keywords = content.map((c) => {
 			return c.split('.')[0];
-		});
-		fs.writeFile('../package.json', JSON.stringify(pkg, null, 4), (err) => {
+        });
+        console.log(pkg)
+		fs.writeFile(`${path}/package.json`, JSON.stringify(pkg, null, 4), (err) => {
 			if (err) {
 				throw new Error('哎呀，出错了...');
 			}

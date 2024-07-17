@@ -9,6 +9,7 @@
     "scripts": {
         "dev": "vite build --watch",
         "build": "vite build",
+        "preview": "vite preview",
         "docs:dev": "concurrently \"typedoc --watch\" \"vitepress dev docs\"",
         "docs:build": "typedoc && vitepress build docs",
         "docs:preview": "vitepress preview docs",
@@ -24,6 +25,8 @@
     ],
     "keywords": [
         "add",
+        "filter",
+        "forEach",
         "map"
     ],
     "author": "",
@@ -32,8 +35,8 @@
         "@eslint/js": "^9.0.0",
         "@release-it/conventional-changelog": "^5.1.1",
         "@types/node": "^20.12.7",
-        "dotenv-cli": "^7.2.1",
         "concurrently": "^8.2.2",
+        "dotenv-cli": "^7.2.1",
         "eslint": "^8.56.0",
         "globals": "^15.0.0",
         "release-it": "^15.5.1",
@@ -44,5 +47,8 @@
         "vite": "^5.2.8",
         "vitepress": "1.1.0",
         "vitest": "^1.5.0"
+    },
+    "dependencies": {
+        "vite-plugin-dts": "^3.9.1"
     }
 }
