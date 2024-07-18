@@ -26,8 +26,7 @@
     "keywords": [
         "add",
         "filter",
-        "forEach",
-        "map"
+        "validateIdentifyNumber"
     ],
     "author": "",
     "license": "MIT",

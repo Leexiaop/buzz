@@ -4,16 +4,16 @@
 
 # 函数: add()
 
-### 这是一个计算俩数相加的方法
+### 计算任意俩个数的和
 
-> **add**(`a`, `b`): `number`
+> **add**(`num1`, `num2`): `number`
 
 ## 参数
 
 | 参数名 | 类型 | 描述 |
 | :------ | :------ | :------ |
-| `a` | `number` | 要求是一个number, 必传 |
-| `b` | `number` | 要求是一个number, 必传 |
+| `num1` | `number` | 要求是一个number, 必传 |
+| `num2` | `number` | 要求是一个number, 必传 |
 
 ## 返回值类型
 
@@ -29,4 +29,4 @@ console.log(add(3, 4)); // 7
 
 ## 查看源码
 
-[add.ts:13](https://github.com/Leexiaop/buzz/blob/68fb0afdb500f35e7af5027102c38b7b5bfa2f4d/src/add.ts#L13)
+[add.ts:13](https://github.com/Leexiaop/buzz/blob/7b7b076e4d1ee1e2d3b17e1fe591ccaef2ee4733/src/add.ts#L13)
