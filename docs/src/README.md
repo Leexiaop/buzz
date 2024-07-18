@@ -181,7 +181,7 @@ export default defineConfig({
 
 1. 通过命令 npx vitepress init 初始化 docs 文件，就是我们创建成功的文档。所以我们要在 package.json 中配置文档的启动命令。
 
-````json
+```json
     {
         ...
         scripts: {
@@ -191,21 +191,27 @@ export default defineConfig({
         }
         ...
     }
-````
-注意：如果发现vitepress没有安装，请通过命令npm add vitepress -D来安装。这样运行命令npm run docs:dev就可以在浏览器预览文档了。
+```
+
+注意：如果发现 vitepress 没有安装，请通过命令 npm add vitepress -D 来安装。这样运行命令 npm run docs:dev 就可以在浏览器预览文档了。
 
 ### 自动生成文档
 
-上一步虽然安装了vitepress，但是，我们并不能自动生成文档，还需要我们手动来编写开发文档，这样效率还是很低，那么可不可以自动生成文档呢？当然可以，typedoc插件就是干这个的，我们通过为函数编写注释来自动生成文档。
-1. 首先我们安装typedoc;
+上一步虽然安装了 vitepress，但是，我们并不能自动生成文档，还需要我们手动来编写开发文档，这样效率还是很低，那么可不可以自动生成文档呢？当然可以，typedoc 插件就是干这个的，我们通过为函数编写注释来自动生成文档。
+
+1. 首先我们安装 typedoc;
+
 ```shell
 npm install typedoc;
 ```
-这样我们就安装了vitepress,但是我们想要生成的是markdown文档，所以我们还需要另外一个插件，typedoc-plugin-markdown：
+
+这样我们就安装了 vitepress,但是我们想要生成的是 markdown 文档，所以我们还需要另外一个插件，typedoc-plugin-markdown：
+
 ```shell
 npm install typedoc-plugin-markdown concurrently
 ```
-直接安装即可。另外，我们再安装一个插件concurrently,这个包是同时执行多个命令。到现在为止我们的插件就安装完成。那么下面我们开始配置启动文档命令：
+
+直接安装即可。另外，我们再安装一个插件 concurrently,这个包是同时执行多个命令。到现在为止我们的插件就安装完成。那么下面我们开始配置启动文档命令：
 
 ```json
 {
@@ -218,3 +224,77 @@ npm install typedoc-plugin-markdown concurrently
     ...
 }
 ```
+
+2. 接下来，我们还要为 typedoc 编写配置文件，我们可以通过手动添加，或者命令来生成 typedoc.config.cjs 文件，然后内容如下：
+
+```js
+/** @type {import('typedoc').TypeDocOptions & import('typedoc-plugin-markdown').PluginOptions} */
+module.exports = {
+	entryPoints: ['./src/index.ts'],
+	out: 'docs/src',
+	plugin: ['typedoc-plugin-markdown', './docs/.vitepress/theme/typedoc-theme.mjs'],
+	theme: 'themeExpand',
+	hideBreadcrumbs: true,
+	parametersFormat: 'table',
+	typeDeclarationFormat: 'table',
+	textContentMappings: {
+		'label.returns': '返回值类型',
+		'label.name': '名称',
+		'label.source': '查看源码',
+		'label.extends': '继承',
+		'label.implements': '实现',
+		'label.type': '类型',
+		'label.description': '描述',
+		'kind.typeAlias.plural': '类型别名',
+		'kind.typeAlias.singular': '类型别名',
+		'kind.class.plural': '类',
+		'kind.class.singular': '类',
+		'kind.interface.plural': '接口',
+		'kind.interface.singular': '接口',
+		'kind.module.plural': '模块',
+		'kind.typeParameter.plural': '类型参数',
+		'kind.typeParameter.singular': '类型参数',
+		'label.defaultValue': '默认值',
+		'kind.function.plural': '函数',
+		'kind.function.singular': '函数',
+		'kind.parameter.singular': '参数名',
+		'kind.parameter.plural': '参数'
+	}
+};
+```
+
+这样运行命令`npm run docs:dev`，在开发函数的时候，就会实时生成文档可以预览了。
+
+### 单元测试
+
+js 库没有测试是不行的，所以我们这里选用的 vitest 这个库，当然，也可以选择其他的库，比如 jest,mocha，等都是可以的，这里比较简单，我们直接安装，然后配置命令运行即可：
+
+```shell
+npm install vitepress
+```
+
+### 部署
+
+通过命令`npm run docs:build`，在docs/.vitepress/目录下生成了dist文件，这就是我们要部署的文件。
+
+1. 文档部署
+
+文档的部署，可以是部署到自己的服务器上，也可以是部署到托管平台上，比如 github，render 上等。我们这里的部署是通过 release 这个插件部署，依然是安装，配置命令：
+
+```shell
+npm install release
+```
+
+```json
+{
+    ...
+    "scripts": {
+        "release": "dotenv release-it",
+        "release:ci": "dotenv release-it --ci",
+    }
+}
+```
+
+具体根据不同平台，部署就好了。
+
+2. 在自己的服务器上，只要将自己的域名指向生成的dist文件即可。

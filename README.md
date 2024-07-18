@@ -223,7 +223,7 @@ npm install typedoc-plugin-markdown concurrently
 
 2. 接下来，我们还要为 typedoc 编写配置文件，我们可以通过手动添加，或者命令来生成 typedoc.config.cjs 文件，然后内容如下：
 
-```cjs
+```js
 /** @type {import('typedoc').TypeDocOptions & import('typedoc-plugin-markdown').PluginOptions} */
 module.exports = {
 	entryPoints: ['./src/index.ts'],

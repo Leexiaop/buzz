@@ -18,4 +18,4 @@
 
 ## 查看源码
 
-[map.ts:1](https://github.com/Leexiaop/buzz/blob/b2cfe19d5fac90ddf9bfdd44aee841936c52d561/src/map.ts#L1)
+[map.ts:1](https://github.com/Leexiaop/buzz/blob/68fb0afdb500f35e7af5027102c38b7b5bfa2f4d/src/map.ts#L1)

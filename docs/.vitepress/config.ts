@@ -4,7 +4,7 @@ import navigation from './navigation.json';
 
 export default defineConfig({
 	description: '一个开箱即用的 Javascript 工具库',
-	base: '/',
+	base: '/buzzs/',
 	appearance: 'dark',
 	markdown: {
 		lineNumbers: true
