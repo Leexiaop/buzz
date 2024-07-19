@@ -4,13 +4,12 @@
 
 # buzzs
 
-## 函数
-
-- [filter](functions/filter.md)
-
 ## 工具函数
 
+- [validateEmail](functions/validateEmail.md)
+- [validateIdNumber](functions/validateIdNumber.md)
 - [validateIdentifyNumber](functions/validateIdentifyNumber.md)
+- [validatePhoneNumber](functions/validatePhoneNumber.md)
 
 ## 数学
 

@@ -29,4 +29,4 @@ validateIdentifyNumber('IOZSVa9892844782992')    //  fasle
 
 ## 查看源码
 
-validateIdentifyNumber.ts:12
+[validateIdentifyNumber.ts:12](https://github.com/Leexiaop/buzz/blob/b873b4b90756d6ae316783f8b5f41c77bf418594/src/validateIdentifyNumber.ts#L12)

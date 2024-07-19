@@ -13,6 +13,6 @@ export const validateIdentifyNumber = (value: string, reg?: RegExp): boolean => 
 	if (!value || (value && typeof value !== 'string')) {
 		throw new Error('请正确传入统一征信码!');
 	}
-	const socialcreditVerify: RegExp = reg || /^[^_IOZSVa-z\W]{2}\d{6}[^_IOZSVa-z\W]{10}$/g;
-	return socialcreditVerify.test(value);
+	const pattern: RegExp = reg || /^[^_IOZSVa-z\W]{2}\d{6}[^_IOZSVa-z\W]{10}$/g;
+	return pattern.test(value);
 };

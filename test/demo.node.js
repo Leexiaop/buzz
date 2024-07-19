@@ -1,2 +1,2 @@
-import { validateIdentifyNumber } from '../dist/index.js';
-console.log(validateIdentifyNumber('91110105MA0028HK1P'));     // 3
+import { validateEmail } from '../dist/index.js';
+console.log(validateEmail('lee13691388204@yeah.net'));     // 3

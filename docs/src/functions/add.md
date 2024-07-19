@@ -4,29 +4,30 @@
 
 # 函数: add()
 
-### 计算任意俩个数的和
-
 > **add**(`num1`, `num2`): `number`
+
+计算任意俩个数字的和。
 
 ## 参数
 
 | 参数名 | 类型 | 描述 |
 | :------ | :------ | :------ |
-| `num1` | `number` | 要求是一个number, 必传 |
-| `num2` | `number` | 要求是一个number, 必传 |
+| `num1` | `number` | 数 |
+| `num2` | `number` | 数 |
 
 ## 返回值类型
 
 `number`
 
-(number) 返回俩个数相加后的结果
+返回一个俩数相加后的和
 
 ## 示例
 
 ```ts
-console.log(add(3, 4)); // 7
+add(1, 1)    //  2
+add(-1, 1)    //  0
 ```
 
 ## 查看源码
 
-[add.ts:13](https://github.com/Leexiaop/buzz/blob/7b7b076e4d1ee1e2d3b17e1fe591ccaef2ee4733/src/add.ts#L13)
+[add.ts:13](https://github.com/Leexiaop/buzz/blob/b873b4b90756d6ae316783f8b5f41c77bf418594/src/add.ts#L13)
