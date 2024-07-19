@@ -1,9 +1,9 @@
 /**
  * 验证统一征信码是否合格，支持自定义验证规则。
  * @group 工具函数
- * @param value 统一征信码 
- * @param reg 自定义规则，可选参数
- * @returns 返回一个布尔值，通过返回true
+ * @param {string} value 统一征信码 
+ * @param {RegExp} reg 自定义规则，可选参数
+ * @returns {boolean} 返回一个布尔值，通过返回true
  * @example
  * ```ts
  * validateIdentifyNumber('IOZSVa9892844782992')    //  fasle
