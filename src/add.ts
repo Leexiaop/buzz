@@ -7,13 +7,12 @@
  * @example
  * ```ts
  * add(1, 1)    //  2
- * add(-1, 1)    //  0
  * ```
  * @remarks *当前方法不支持负数的相加
  */
-export const add = (augend: string, addend: string): number => {
-    const a = augend.split('');
-    const b = addend.split('');
+export const add = (augend: number, addend: number): number => {
+    const a = (`${augend}`).split('');
+    const b = (`${addend}`).split('');
     const sum: number[] = [];
     let gos: number = 0;
     while (a.length || b.length) {
