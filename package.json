@@ -25,6 +25,7 @@
     ],
     "keywords": [
         "add",
+        "arrayToTree",
         "validateEmail",
         "validateIdentifyNumber",
         "validateIdNumber",

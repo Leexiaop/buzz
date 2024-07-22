@@ -29,4 +29,4 @@ validateEmail('buzzs1369872@yeah.net')    //  true
 
 ## 查看源码
 
-[validateEmail.ts:12](https://github.com/Leexiaop/buzz/blob/ca514a32bcfe44216e3f744dbf2287a6fa8202e4/src/validateEmail.ts#L12)
+[validateEmail.ts:12](https://github.com/Leexiaop/buzz/blob/285d3ceaf2714f6a5ad01d8ffe11b3d730986a1f/src/validateEmail.ts#L12)

@@ -6,6 +6,7 @@
 
 ## 工具函数
 
+- [arrayToTree](functions/arrayToTree.md)
 - [validateEmail](functions/validateEmail.md)
 - [validateIdNumber](functions/validateIdNumber.md)
 - [validateIdentifyNumber](functions/validateIdentifyNumber.md)
