@@ -13,6 +13,7 @@
 	"plugins": ["@typescript-eslint"],
 	"rules": {
 		"prettier/prettier": "off",
+		"@typescript-eslint/no-explicit-any": "off",
 		"@babel/no-unused-expressions": "off",
 		"one-var": "off",
 		"no-empty-pattern": "error",
@@ -60,7 +61,6 @@
 		],
 		"no-regex-spaces": "warn",
 		"no-implicit-globals": "off",
-		"@typescript-eslint/no-explicit-any": "off",
 		"no-new-func": "warn",
 		// 不允许数组括号内的空格
 		"array-bracket-spacing": ["error", "never"],

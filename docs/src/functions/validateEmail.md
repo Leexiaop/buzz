@@ -12,7 +12,7 @@
 
 | 参数名 | 类型 | 描述 |
 | :------ | :------ | :------ |
-| `value` | `any` | 邮箱地址 |
+| `value` | `string` | 邮箱地址 |
 | `reg`? | `RegExp` | 自定义规则，可选参数 |
 
 ## 返回值类型
@@ -29,4 +29,4 @@ validateEmail('buzzs1369872@yeah.net')    //  true
 
 ## 查看源码
 
-[validateEmail.ts:12](https://github.com/Leexiaop/buzz/blob/285d3ceaf2714f6a5ad01d8ffe11b3d730986a1f/src/validateEmail.ts#L12)
+[validateEmail.ts:12](https://github.com/Leexiaop/buzz/blob/31ff1db7909d27526bd773cbc4059c11c798439e/src/validateEmail.ts#L12)

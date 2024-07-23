@@ -35,4 +35,4 @@ validatePhoneNumber('010-22458779')    //  true
 
 ## 查看源码
 
-[validatePhoneNumber.ts:15](https://github.com/Leexiaop/buzz/blob/285d3ceaf2714f6a5ad01d8ffe11b3d730986a1f/src/validatePhoneNumber.ts#L15)
+[validatePhoneNumber.ts:15](https://github.com/Leexiaop/buzz/blob/31ff1db7909d27526bd773cbc4059c11c798439e/src/validatePhoneNumber.ts#L15)

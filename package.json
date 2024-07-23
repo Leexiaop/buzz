@@ -26,6 +26,8 @@
     "keywords": [
         "add",
         "arrayToTree",
+        "deepClone",
+        "treeToArray",
         "validateEmail",
         "validateIdentifyNumber",
         "validateIdNumber",
