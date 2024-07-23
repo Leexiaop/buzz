@@ -1,43 +1,83 @@
-import { deepClone } from './deepClone.ts';
-
 /**
- * 将一个对象结构，或者是数组结构的树形结构扁平后，返回一个一维的数组
+ * 将一个数组结构的树形结构扁平后，返回一个一维的数组
  * @group 工具函数
- * @param {Array | Object} treeObj 可以是一个数组或者是一个对象
- * @param {string} rootid 根节点
+ * @param {Array} tree 可以是一个数组或者是一个对象
  * @returns {Array} 返回一个扁平后的一维数组
  * @example
  * ```ts
+ * const list = [
+    {
+        id: 1,
+        name: '部门1',
+        pid: 0,
+        children: [
+            {
+                id: 2,
+                name: '部门1-1',
+                pid: 1,
+                children: [
+                    {
+                        id: 4, 
+                        name: '部门1-1-1', 
+                        pid: 2,
+                        children: []
+                    }
+                ]
+            },
+            {
+                id: 3,
+                name: '部门1-2',
+                pid: 1,
+                children: [
+                    {
+                        id: 5, 
+                        name: '部门1-2-1', 
+                        pid: 3,
+                        children: []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 6,
+        name: '部门2',
+        pid: 0,
+        children: [
+            {
+                id: 7, 
+                name: '部门2-1', 
+                pid: 6,
+                children: []
+            }
+        ]
+    },
+    {
+        id: 8,
+        name: '部门3',
+        pid: 0,
+        children: []
+    }
+]
+
+const arr = treeToArray(list)
+console.log(arr)
+
  * ```
- */
-export const treeToArray = (treeObj, rootid) => {
-	let temp = [];
-	const out = [];
-	let pid = '';
-	if (Array.isArray(treeObj)) {
-		temp = deepClone(treeObj);
-	} else {
-		temp.push(treeObj);
-		pid = rootid;
-		const obj = deepClone(treeObj);
-		obj.pid = pid;
-		delete obj['children'];
-		out.push(obj);
-	}
-	while (temp.length > 0) {
-		const first = temp.shift();
-		const children = first.children;
-		if (children && children.length > 0) {
-			pid = first.id;
-			const len = first.children.length;
-			for (let i = 0; i < len; i++) {
-				temp.push(children[i]);
-				const obj = deepClone(children[i]);
-				obj.pid = pid;
-				delete obj['children'];
-				out.push(obj);
-			}
+*/
+export const treeToArray = (tree) => {
+	const result = [];
+	getItem(tree, result);
+	return result;
+};
+
+const getItem = (tree, result) => {
+	for (let i = 0; i < tree.length; i++) {
+		if (tree[i].children) {
+			getItem(tree[i].children, result);
+			delete tree[i].children;
 		}
+		result.push(tree[i]);
 	}
-	return out;
+	return result;
 };

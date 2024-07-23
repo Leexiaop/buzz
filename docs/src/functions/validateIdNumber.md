@@ -28,4 +28,4 @@ validateIdNumber('420102199003078776')    //  true
 
 ## 查看源码
 
-[validateIdNumber.ts:130](https://github.com/Leexiaop/buzz/blob/31ff1db7909d27526bd773cbc4059c11c798439e/src/validateIdNumber.ts#L130)
+[validateIdNumber.ts:130](https://github.com/Leexiaop/buzz/blob/777764f87ed5bc92158fd2e9b7456d28948d62a1/src/validateIdNumber.ts#L130)

@@ -53,4 +53,4 @@ const listTree =  [
         children: []
     }
 ];
-console.log(JSON.stringify(treeToArray(listTree, 'children'))); // 3
+console.log(treeToArray(listTree, 'children')); // 3

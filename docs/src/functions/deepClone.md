@@ -33,4 +33,4 @@ console.log(item)    //  {a: 1, b: 2}
 
 ## 查看源码
 
-deepClone.ts:16
+[deepClone.ts:16](https://github.com/Leexiaop/buzz/blob/777764f87ed5bc92158fd2e9b7456d28948d62a1/src/deepClone.ts#L16)

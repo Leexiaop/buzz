@@ -33,4 +33,4 @@ add(1, 1)    //  2
 
 ## 查看源码
 
-[add.ts:13](https://github.com/Leexiaop/buzz/blob/31ff1db7909d27526bd773cbc4059c11c798439e/src/add.ts#L13)
+[add.ts:13](https://github.com/Leexiaop/buzz/blob/777764f87ed5bc92158fd2e9b7456d28948d62a1/src/add.ts#L13)

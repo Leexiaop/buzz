@@ -4,16 +4,15 @@
 
 # 函数: treeToArray()
 
-> **treeToArray**(`treeObj`, `rootid`): `any`[]
+> **treeToArray**(`tree`): `any`[]
 
-将一个对象结构，或者是数组结构的树形结构扁平后，返回一个一维的数组
+将一个数组结构的树形结构扁平后，返回一个一维的数组
 
 ## 参数
 
 | 参数名 | 类型 | 描述 |
 | :------ | :------ | :------ |
-| `treeObj` | `any` | 可以是一个数组或者是一个对象 |
-| `rootid` | `any` | 根节点 |
+| `tree` | `any` | 可以是一个数组或者是一个对象 |
 
 ## 返回值类型
 
@@ -24,8 +23,66 @@
 ## 示例
 
 ```ts
+const list = [
+   {
+       id: 1,
+       name: '部门1',
+       pid: 0,
+       children: [
+           {
+               id: 2,
+               name: '部门1-1',
+               pid: 1,
+               children: [
+                   {
+                       id: 4, 
+                       name: '部门1-1-1', 
+                       pid: 2,
+                       children: []
+                   }
+               ]
+           },
+           {
+               id: 3,
+               name: '部门1-2',
+               pid: 1,
+               children: [
+                   {
+                       id: 5, 
+                       name: '部门1-2-1', 
+                       pid: 3,
+                       children: []
+                   }
+               ]
+           }
+       ]
+   },
+   {
+       id: 6,
+       name: '部门2',
+       pid: 0,
+       children: [
+           {
+               id: 7, 
+               name: '部门2-1', 
+               pid: 6,
+               children: []
+           }
+       ]
+   },
+   {
+       id: 8,
+       name: '部门3',
+       pid: 0,
+       children: []
+   }
+]
+
+const arr = treeToArray(list)
+console.log(arr)
+
 ```
 
 ## 查看源码
 
-treeToArray.ts:13
+[treeToArray.ts:68](https://github.com/Leexiaop/buzz/blob/777764f87ed5bc92158fd2e9b7456d28948d62a1/src/treeToArray.ts#L68)
