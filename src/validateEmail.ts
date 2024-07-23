@@ -9,7 +9,7 @@
  * validateEmail('buzzs1369872@yeah.net')    //  true
  * ```
  */
-export const validateEmail = (value, reg?: RegExp): boolean => {
+export const validateEmail = (value: string, reg?: RegExp): boolean => {
 	if (!value || (value && typeof value !== 'string')) {
 		throw new Error('请正确传入邮箱地址!');
 	}
