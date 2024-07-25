@@ -7,6 +7,7 @@
 ## 工具函数
 
 - [arrayToTree](functions/arrayToTree.md)
+- [numberToChinese](functions/numberToChinese.md)
 - [treeToArray](functions/treeToArray.md)
 - [validateEmail](functions/validateEmail.md)
 - [validateIdNumber](functions/validateIdNumber.md)
@@ -16,7 +17,3 @@
 ## 数学
 
 - [add](functions/add.md)
-
-## 语言
-
-- [deepClone](functions/deepClone.md)

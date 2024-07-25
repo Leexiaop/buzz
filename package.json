@@ -26,6 +26,7 @@
     "keywords": [
         "add",
         "arrayToTree",
+        "numberToChinese",
         "treeToArray",
         "validateEmail",
         "validateIdentifyNumber",
