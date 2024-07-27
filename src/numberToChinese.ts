@@ -1,7 +1,7 @@
 /**
  * 将一个数字转为中文
  * @group 工具函数
- * @param num 需要转中文的数字
+ * @param {numner} num 需要转中文的数字
  * @returns 转化后的中文字符串
  * @example
  * ```ts

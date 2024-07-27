@@ -8,6 +8,7 @@
 
 - [arrayToTree](functions/arrayToTree.md)
 - [numberToChinese](functions/numberToChinese.md)
+- [onThousandsSeprate](functions/onThousandsSeprate.md)
 - [treeToArray](functions/treeToArray.md)
 - [validateEmail](functions/validateEmail.md)
 - [validateIdNumber](functions/validateIdNumber.md)

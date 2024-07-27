@@ -27,10 +27,11 @@
         "add",
         "arrayToTree",
         "numberToChinese",
+        "onThousandsSeprate",
         "treeToArray",
         "validateEmail",
-        "validateIdentifyNumber",
         "validateIdNumber",
+        "validateIdentifyNumber",
         "validatePhoneNumber"
     ],
     "author": "",
@@ -53,6 +54,7 @@
         "vitest": "^1.5.0"
     },
     "dependencies": {
+        "@rollup/rollup-darwin-x64": "^4.19.1",
         "vite-plugin-dts": "^3.9.1"
     }
 }
