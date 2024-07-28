@@ -27,6 +27,7 @@
         "add",
         "arrayToTree",
         "isMobile",
+        "isWechat",
         "numberToChinese",
         "onThousandsSeprate",
         "treeToArray",

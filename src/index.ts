@@ -1,6 +1,7 @@
 export { add } from './add.ts';
 export { arrayToTree } from './arrayToTree.ts';
 export { isMobile } from './isMobile.ts';
+export { isWechat } from './isWechat.ts';
 export { numberToChinese } from './numberToChinese.ts';
 export { onThousandsSeprate } from './onThousandsSeprate.ts';
 export { treeToArray } from './treeToArray.ts';

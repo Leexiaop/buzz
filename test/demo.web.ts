@@ -1,3 +1,3 @@
-import { add } from '../dist';
+import { isWechat } from '../dist';
 
-console.log(add(1, 2));  //  3
+console.log(isWechat());

@@ -8,6 +8,7 @@
 
 - [arrayToTree](functions/arrayToTree.md)
 - [isMobile](functions/isMobile.md)
+- [isWechat](functions/isWechat.md)
 - [numberToChinese](functions/numberToChinese.md)
 - [onThousandsSeprate](functions/onThousandsSeprate.md)
 - [treeToArray](functions/treeToArray.md)

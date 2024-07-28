@@ -1,3 +1,3 @@
-import { onThousandsSeprate } from '../dist/index.js';
+import { isMobile } from '../dist/index.js';
 
-console.log(onThousandsSeprate(211343332234)); // 3
+console.log(isMobile()); // 3
