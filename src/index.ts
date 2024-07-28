@@ -4,6 +4,7 @@ export { isMobile } from './isMobile.ts';
 export { isWechat } from './isWechat.ts';
 export { numberToChinese } from './numberToChinese.ts';
 export { onThousandsSeprate } from './onThousandsSeprate.ts';
+export { subtraction } from './subtraction.ts';
 export { treeToArray } from './treeToArray.ts';
 export { validateEmail } from './validateEmail.ts';
 export { validateIdNumber } from './validateIdNumber.ts';

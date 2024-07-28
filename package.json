@@ -30,6 +30,7 @@
         "isWechat",
         "numberToChinese",
         "onThousandsSeprate",
+        "subtraction",
         "treeToArray",
         "validateEmail",
         "validateIdNumber",

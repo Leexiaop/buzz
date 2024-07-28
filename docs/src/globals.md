@@ -4,6 +4,10 @@
 
 # buzzs
 
+## 函数
+
+- [subtraction](functions/subtraction.md)
+
 ## 工具函数
 
 - [arrayToTree](functions/arrayToTree.md)

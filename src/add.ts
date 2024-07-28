@@ -28,5 +28,5 @@ export const add = (augend: number, addend: number): number => {
         }
         sum.unshift(tmp)
     }
-    return 0
+    return sum.join() - 0
 };

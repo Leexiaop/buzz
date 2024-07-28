@@ -1,3 +1,3 @@
-import { isMobile } from '../dist/index.js';
+import { add } from '../dist/index.js';
 
-console.log(isMobile()); // 3
+console.log(add(5999999999999999999999999999999999, 1)); // 3
