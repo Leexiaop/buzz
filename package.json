@@ -26,6 +26,7 @@
     "keywords": [
         "add",
         "arrayToTree",
+        "isMobile",
         "numberToChinese",
         "onThousandsSeprate",
         "treeToArray",

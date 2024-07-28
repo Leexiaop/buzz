@@ -7,6 +7,7 @@
 ## 工具函数
 
 - [arrayToTree](functions/arrayToTree.md)
+- [isMobile](functions/isMobile.md)
 - [numberToChinese](functions/numberToChinese.md)
 - [onThousandsSeprate](functions/onThousandsSeprate.md)
 - [treeToArray](functions/treeToArray.md)
