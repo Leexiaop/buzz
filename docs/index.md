@@ -17,11 +17,11 @@ hero:
           text: Github
           link: https://github.com/Leexiaop/buzz
 
-        - theme: alt
+        - theme: brand
           text: Buzzs-cli
           link: https://www.ibadgers.cn/buzzs-cli
 
-        - theme: alt
+        - theme: brand
           text: Buzzs-UI
           link: https://www.ibadgers.cn/buzzs-ui
 
