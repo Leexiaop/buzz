@@ -1,6 +1,7 @@
 # buzzs 简介
 
 这是一个具有完整基础设施并且使用 typescript 开发的 javascript 库项目开发模板, 帮助你快速搭建一个自动生成文档的 javascript 工具库.
+`文档地址：https://www.ibadgers.cn/buzzs/`
 
 # 用法
 
@@ -294,3 +295,6 @@ npm install release
 具体根据不同平台，部署就好了。
 
 2. 在自己的服务器上，只要将自己的域名指向生成的dist文件即可。
+3. 发布注意设置npm的官网镜像
+    + 淘宝镜像：npm config set registry https://registry.npm.taobao.org
+    + npm镜像：npm config set registry https://registry.npmjs.org
