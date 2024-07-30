@@ -6,7 +6,7 @@
  * @returns {string} 返回一个俩数相加后的和
  * @example
  * ```ts
- * add(1, 1)    //  2
+ * add('1', '1')    //  2
  * ```
  * @remarks *当前方法不支持负数的相加
  */

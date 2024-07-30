@@ -5,6 +5,7 @@
  * @example
  * ```ts
  * isWorkWechat()   //  false
+ * ```
  */
 export const isWorkWechat = (): boolean => {
 	const ua = window.navigator.userAgent.toLowerCase();

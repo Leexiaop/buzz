@@ -18,7 +18,8 @@
 
 ```ts
 isWorkWechat()   //  false
+```
 
 ## 查看源码
 
-isWorkWechat.ts:9
+[isWorkWechat.ts:10](https://github.com/Leexiaop/buzz/blob/55a146517984fc8673084656b05bf607efa1e1f3/src/isWorkWechat.ts#L10)

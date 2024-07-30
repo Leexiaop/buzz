@@ -22,4 +22,4 @@ isMobile()   //  false当前环境为浏览器
 
 ## 查看源码
 
-[isMobile.ts:10](https://github.com/Leexiaop/buzz/blob/7424af39cef8b5d7b231c26da173862984dd1e95/src/isMobile.ts#L10)
+[isMobile.ts:10](https://github.com/Leexiaop/buzz/blob/55a146517984fc8673084656b05bf607efa1e1f3/src/isMobile.ts#L10)

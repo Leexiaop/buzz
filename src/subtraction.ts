@@ -6,7 +6,7 @@
  * @returns {string} 返回一个俩数相减的差
  * @example
  * ```ts
- * subtraction(1, 1)    //  0
+ * subtraction('1', '1')    //  0
  * ```
  * @remarks *当前方法不支持负数的相加
  */

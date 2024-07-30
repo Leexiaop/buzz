@@ -24,7 +24,7 @@
 ## 示例
 
 ```ts
-add(1, 1)    //  2
+add('1', '1')    //  2
 ```
 
 ## Remarks
@@ -33,4 +33,4 @@ add(1, 1)    //  2
 
 ## 查看源码
 
-[add.ts:13](https://github.com/Leexiaop/buzz/blob/7424af39cef8b5d7b231c26da173862984dd1e95/src/add.ts#L13)
+[add.ts:13](https://github.com/Leexiaop/buzz/blob/55a146517984fc8673084656b05bf607efa1e1f3/src/add.ts#L13)

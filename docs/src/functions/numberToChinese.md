@@ -28,4 +28,4 @@ numberToChinese(234) //  贰佰叁拾肆
 
 ## 查看源码
 
-[numberToChinese.ts:11](https://github.com/Leexiaop/buzz/blob/7424af39cef8b5d7b231c26da173862984dd1e95/src/numberToChinese.ts#L11)
+[numberToChinese.ts:11](https://github.com/Leexiaop/buzz/blob/55a146517984fc8673084656b05bf607efa1e1f3/src/numberToChinese.ts#L11)

@@ -24,7 +24,7 @@
 ## 示例
 
 ```ts
-subtraction(1, 1)    //  0
+subtraction('1', '1')    //  0
 ```
 
 ## Remarks
@@ -33,4 +33,4 @@ subtraction(1, 1)    //  0
 
 ## 查看源码
 
-[subtraction.ts:13](https://github.com/Leexiaop/buzz/blob/7424af39cef8b5d7b231c26da173862984dd1e95/src/subtraction.ts#L13)
+[subtraction.ts:13](https://github.com/Leexiaop/buzz/blob/55a146517984fc8673084656b05bf607efa1e1f3/src/subtraction.ts#L13)
