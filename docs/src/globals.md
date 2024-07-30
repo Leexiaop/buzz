@@ -8,8 +8,6 @@
 
 - [arrayToTree](functions/arrayToTree.md)
 - [isMobile](functions/isMobile.md)
-- [isWechat](functions/isWechat.md)
-- [isWorkWechat](functions/isWorkWechat.md)
 - [numberToChinese](functions/numberToChinese.md)
 - [onThousandsSeprate](functions/onThousandsSeprate.md)
 - [treeToArray](functions/treeToArray.md)
@@ -17,6 +15,11 @@
 - [validateIdNumber](functions/validateIdNumber.md)
 - [validateIdentifyNumber](functions/validateIdentifyNumber.md)
 - [validatePhoneNumber](functions/validatePhoneNumber.md)
+
+## 微信
+
+- [isWechat](functions/isWechat.md)
+- [isWorkWechat](functions/isWorkWechat.md)
 
 ## 数学
 

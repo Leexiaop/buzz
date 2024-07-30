@@ -14,7 +14,7 @@
  */
 
 export const onThousandsSeprate = (num: number, decimals?: number, point?: string, thousandsPoint?: string): string => {
-	let number = (num + '').replace(/[^0-9+-Ee.]/g, '');
+	const number = (num + '').replace(/[^0-9+-Ee.]/g, '');
 	const n = !isFinite(+number) ? 0 : +number;
 	const prec = !isFinite(+decimals) ? 2 : Math.abs(decimals);
 	const sep = typeof thousandsPoint === 'undefined' ? ',' : thousandsPoint;
