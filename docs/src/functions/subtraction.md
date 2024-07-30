@@ -33,4 +33,4 @@ subtraction('1', '1')    //  0
 
 ## 查看源码
 
-[subtraction.ts:13](https://github.com/Leexiaop/buzz/blob/55a146517984fc8673084656b05bf607efa1e1f3/src/subtraction.ts#L13)
+[subtraction.ts:13](https://github.com/Leexiaop/buzz/blob/ce6fbdf635a835ca8964edab94e7a1d4581157cf/src/subtraction.ts#L13)

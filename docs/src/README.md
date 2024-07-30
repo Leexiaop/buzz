@@ -5,6 +5,7 @@
 # buzzs 简介
 
 这是一个具有完整基础设施并且使用 typescript 开发的 javascript 库项目开发模板, 帮助你快速搭建一个自动生成文档的 javascript 工具库.
+`文档地址：https://www.ibadgers.cn/buzzs/`
 
 # 用法
 

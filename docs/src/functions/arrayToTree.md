@@ -93,4 +93,4 @@ arrayToTree(list, 'pid');
 
 ## 查看源码
 
-[arrayToTree.ts:77](https://github.com/Leexiaop/buzz/blob/55a146517984fc8673084656b05bf607efa1e1f3/src/arrayToTree.ts#L77)
+[arrayToTree.ts:77](https://github.com/Leexiaop/buzz/blob/ce6fbdf635a835ca8964edab94e7a1d4581157cf/src/arrayToTree.ts#L77)

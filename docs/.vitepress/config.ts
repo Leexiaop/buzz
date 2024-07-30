@@ -27,12 +27,20 @@ export default defineConfig({
 		},
 		footer: {
 			message: 'Released under the MIT License.',
-			copyright: 'Copyright © 2024-present Lee'
+			copyright: 'Copyright © 2024-present buzzers'
 		},
 		nav: [
 			{
 				text: `v${pkg.version}`,
 				items: [{ text: '更新日志', link: 'CHANGELOG' }]
+            },
+            {
+				text: 'buzzs-cli',
+				link: 'https://ibadgers.cn/buzzs-cli/'
+            },
+            {
+				text: 'buzzs-UI',
+				link: 'https://www.ibadgers.cn/buzzs-ui'
 			}
 		],
 		socialLinks: [

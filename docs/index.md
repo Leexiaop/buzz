@@ -17,6 +17,14 @@ hero:
           text: Github
           link: https://github.com/Leexiaop/buzz
 
+        - theme: alt
+          text: Buzzs-cli
+          link: https://www.ibadgers.cn/buzzs-cli
+
+        - theme: alt
+          text: Buzzs-UI
+          link: https://www.ibadgers.cn/buzzs-ui
+
 features:
     - icon: 📦
       title: 开箱即用

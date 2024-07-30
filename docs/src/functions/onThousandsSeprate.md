@@ -32,4 +32,4 @@ onThousandsSeprate(2113322)	//	2,113,322.00
 
 ## 查看源码
 
-[onThousandsSeprate.ts:16](https://github.com/Leexiaop/buzz/blob/55a146517984fc8673084656b05bf607efa1e1f3/src/onThousandsSeprate.ts#L16)
+[onThousandsSeprate.ts:16](https://github.com/Leexiaop/buzz/blob/ce6fbdf635a835ca8964edab94e7a1d4581157cf/src/onThousandsSeprate.ts#L16)
