@@ -1,3 +1,3 @@
-import { add } from '../dist/index.js';
+import { subtraction } from '../dist/index.js';
 
-console.log(add(5999999999999999999999999999999999, 1)); // 3
+console.log(subtraction('5999999999999999999999999999999994', '9')); // 3

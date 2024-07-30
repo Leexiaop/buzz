@@ -12,15 +12,3 @@ export const isWechat = (): boolean => {
 	const ua = window.navigator.userAgent.toLowerCase();
 	return !!ua.match(/micromessenger/i);
 };
-
-
-// isWorkWechat: function() {
-//     //获取user-agaent标识头
-//     var ua = window.navigator.userAgent.toLowerCase();
-//     //判断ua和微信浏览器的标识头是否匹配
-//     if ((ua.match(/micromessenger/i) == 'micromessenger') && (ua.match(/wxwork/i) == 'wxwork')) {
-//           return true;
-//     } else {
-//           return false;
-//     }
-// },
