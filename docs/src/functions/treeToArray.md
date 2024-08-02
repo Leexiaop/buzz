@@ -85,4 +85,4 @@ console.log(arr)
 
 ## 查看源码
 
-[treeToArray.ts:68](https://github.com/Leexiaop/buzz/blob/ce6fbdf635a835ca8964edab94e7a1d4581157cf/src/treeToArray.ts#L68)
+[treeToArray.ts:68](https://github.com/Leexiaop/buzz/blob/7b12692d0748898621f219703f0b1bfce5c31863/src/treeToArray.ts#L68)
