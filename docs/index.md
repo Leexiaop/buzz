@@ -45,3 +45,40 @@ features:
       title: 快捷发布
       details: 使用 release-it 快捷发布版本, 同步更新 changelog
 ---
+
+## 贡献者
+
+<style>
+    ul.con {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    ul.con li {
+        list-style: none;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -16px;
+    }
+    ul.con > li > p {
+        text-align: center;
+        font-weight: 500;
+    }
+    ul.con > li > img {
+        width: 5rem;
+        border-radius: 50%;
+    }
+</style>
+<ul class="con">
+    <li>
+        <img src="https://avatars.githubusercontent.com/u/34081591?v=4" />
+        <p>leelxp</p>
+    </li>
+    <li>
+        <img src="https://avatars.githubusercontent.com/u/20582315?v=4" />
+        <p>kaili</p>
+    </li>
+</ul>
