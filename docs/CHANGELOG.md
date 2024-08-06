@@ -1,5 +1,18 @@
 # 更新日志
 
+0.0.3
+
+发布函数:
+- camelize
+- capitalize
+- isEnglish
+- isJson
+- multiplication
+
+更新函数:
+- add
+- subtraction
+
 0.0.2 
 
 发布函数：
