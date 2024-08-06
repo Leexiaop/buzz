@@ -1,5 +1,5 @@
 /**
- * 计算任意俩个正数数的差。
+ * 计算任意俩个正整数数的差。
  * @group 数学
  * @param {string} num1 第一个参数
  * @param {string} num2 第二个参数
@@ -8,11 +8,12 @@
  * ```ts
  * subtraction('1', '1')    //  0
  * ```
- * @remarks *当前方法不支持负数的相加
+ * @remarks *当前方法不支持负数的相减
  */
-export const subtraction = (num1:string, num2:string): string => {
-	if (typeof num1 !== 'string' || typeof num2 !== 'string') {
-		throw new Error('请正确传入参数');
+export const subtraction = (num1: string, num2: string): string => {
+	const reg = /^[0-9]+$/;
+	if (!reg.test(num1) || !reg.test(num2)) {
+		throw new Error('参数错啦！');
 	}
 	if (num1 === num2) return '0';
 	function lt(num1, num2) {

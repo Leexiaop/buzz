@@ -1,6 +1,6 @@
 {
     "name": "buzzs",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "",
     "type": "module",
     "main": "./dist/index.cjs",
@@ -26,9 +26,14 @@
     "keywords": [
         "add",
         "arrayToTree",
+        "camelize",
+        "capitalize",
+        "isEnglish",
+        "isJson",
         "isMobile",
         "isWechat",
         "isWorkWechat",
+        "multiplication",
         "numberToChinese",
         "onThousandsSeprate",
         "subtraction",

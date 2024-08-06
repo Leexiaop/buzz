@@ -1,8 +1,13 @@
 export { add } from './add.ts';
 export { arrayToTree } from './arrayToTree.ts';
+export { camelize } from './camelize.ts';
+export { capitalize } from './capitalize.ts';
+export { isEnglish } from './isEnglish.ts';
+export { isJson } from './isJson.ts';
 export { isMobile } from './isMobile.ts';
 export { isWechat } from './isWechat.ts';
 export { isWorkWechat } from './isWorkWechat.ts';
+export { multiplication } from './multiplication.ts';
 export { numberToChinese } from './numberToChinese.ts';
 export { onThousandsSeprate } from './onThousandsSeprate.ts';
 export { subtraction } from './subtraction.ts';

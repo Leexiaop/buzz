@@ -1,5 +1,5 @@
 /**
- * 计算任意俩个正数的和。
+ * 计算任意俩个正整数的和。
  * @group 数学
  * @param {string} augend 第一个参数
  * @param {string} addend 第二个参数
@@ -11,9 +11,10 @@
  * @remarks *当前方法不支持负数的相加
  */
 export const add = (augend: string, addend: string): string => {
-	if (typeof augend !== 'string' || typeof addend !== 'string') {
-		throw new Error('请正确传入参数');
-	}
+    const reg = /^[0-9]+$/;
+    if (!reg.test(augend) || !reg.test(augend)) {
+        throw new Error("参数错啦！")
+    }
 	const a = augend.split('');
 	const b = addend.split('');
 	const sum: number[] = [];

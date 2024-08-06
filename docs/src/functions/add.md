@@ -6,7 +6,7 @@
 
 > **add**(`augend`, `addend`): `string`
 
-计算任意俩个正数的和。
+计算任意俩个正整数的和。
 
 ## 参数
 
@@ -33,4 +33,4 @@ add('1', '1')    //  2
 
 ## 查看源码
 
-[add.ts:13](https://github.com/Leexiaop/buzz/blob/7b12692d0748898621f219703f0b1bfce5c31863/src/add.ts#L13)
+[add.ts:13](https://github.com/Leexiaop/buzz/blob/4387eb30161ab9a7932861d0bc5ba77270c20ee8/src/add.ts#L13)
