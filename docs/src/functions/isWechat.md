@@ -22,4 +22,4 @@ isWechat()   //  false
 
 ## 查看源码
 
-[isWechat.ts:11](https://github.com/Leexiaop/buzz/blob/4387eb30161ab9a7932861d0bc5ba77270c20ee8/src/isWechat.ts#L11)
+[isWechat.ts:11](https://github.com/Leexiaop/buzz/blob/f440eb6c6a177e17278ee5f7b90a0efa4598f57f/src/isWechat.ts#L11)

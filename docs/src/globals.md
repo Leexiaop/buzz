@@ -4,14 +4,11 @@
 
 # buzzs
 
-## 函数
-
-- [capitalize](functions/capitalize.md)
-
 ## 工具函数
 
 - [arrayToTree](functions/arrayToTree.md)
 - [camelize](functions/camelize.md)
+- [capitalize](functions/capitalize.md)
 - [isEnglish](functions/isEnglish.md)
 - [isJson](functions/isJson.md)
 - [isMobile](functions/isMobile.md)

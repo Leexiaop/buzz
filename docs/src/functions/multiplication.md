@@ -33,4 +33,4 @@ console.log(multiplication('2', '3'))    //  '6'
 
 ## 查看源码
 
-multiplication.ts:13
+[multiplication.ts:13](https://github.com/Leexiaop/buzz/blob/f440eb6c6a177e17278ee5f7b90a0efa4598f57f/src/multiplication.ts#L13)

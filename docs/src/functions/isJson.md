@@ -28,4 +28,4 @@ console.log(isJson({})) // false
 
 ## 查看源码
 
-isJson.ts:11
+[isJson.ts:11](https://github.com/Leexiaop/buzz/blob/f440eb6c6a177e17278ee5f7b90a0efa4598f57f/src/isJson.ts#L11)

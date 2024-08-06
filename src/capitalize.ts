@@ -1,3 +1,4 @@
+import { isEnglish } from './isEnglish';
 /**
  * 将单词的首字母转为大写字母
  * @group 工具函数
@@ -8,7 +9,6 @@
  * console.log(capitalize(capitalize)) //   Capitalize
  * ```
  */
-import { isEnglish } from './isEnglish';
 export const capitalize = (str: string): string => {
 	if (!isEnglish(str)) {
 		throw new Error('参数错了！');
