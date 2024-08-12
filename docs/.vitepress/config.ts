@@ -35,8 +35,8 @@ export default defineConfig({
 				items: [{ text: '更新日志', link: 'CHANGELOG' }]
             },
             {
-				text: 'buzzs-cli',
-				link: 'https://ibadgers.cn/buzzs-cli/'
+				text: 'create-buzzs-app',
+				link: 'https://ibadgers.cn/create-buzzs-app/'
             },
             {
 				text: 'buzzs-UI',
