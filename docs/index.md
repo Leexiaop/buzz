@@ -81,4 +81,8 @@ features:
         <img src="https://avatars.githubusercontent.com/u/20582315?v=4" />
         <p>kaili</p>
     </li>
+    <li>
+		<img src="https://avatars.githubusercontent.com/u/21352207?v=4">
+		<p>hemisi</p>
+	</li>
 </ul>
