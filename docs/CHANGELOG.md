@@ -1,5 +1,18 @@
 # 更新日志
 
+0.0.4
+
+发布函数:
+- isStatic
+- isPrimitive
+- isNative
+- imageToBase64
+- getExplorerInfo
+- fileToBase64
+- blobToBase64
+- base64ToFile
+- baseToBlob
+
 0.0.3
 
 发布函数:
