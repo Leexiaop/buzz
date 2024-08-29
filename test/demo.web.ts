@@ -1,5 +1,3 @@
-import { imageToBase64 } from '../dist';
+import { isUrl } from '../src/isUrl';
 
-imageToBase64('https://avatars.githubusercontent.com/u/34081591?v=4', (res) => {
-    console.log(res)
-}, 'image/png')
+console.log(isUrl('https://wwww.ibadgers.cn.com'));

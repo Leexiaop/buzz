@@ -28,4 +28,4 @@ console.log(isEnglish('我就是我')) // false
 
 ## 查看源码
 
-[isEnglish.ts:11](https://github.com/Leexiaop/buzz/blob/99fb078192c5ecbd5dc4be8c30a86d1e5b8d63da/src/isEnglish.ts#L11)
+[isEnglish.ts:11](https://github.com/Leexiaop/buzz/blob/1bf6be662b62c3cc29c31979dd4941f9cefb5af2/src/isEnglish.ts#L11)

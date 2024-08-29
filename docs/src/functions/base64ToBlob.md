@@ -22,4 +22,4 @@
 
 ## 查看源码
 
-base64ToBlob.ts:7
+[base64ToBlob.ts:7](https://github.com/Leexiaop/buzz/blob/1bf6be662b62c3cc29c31979dd4941f9cefb5af2/src/base64ToBlob.ts#L7)

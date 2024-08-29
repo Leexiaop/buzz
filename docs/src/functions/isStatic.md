@@ -28,4 +28,4 @@ isStatic(123)    //  true
 
 ## 查看源码
 
-isStatic.ts:11
+[isStatic.ts:11](https://github.com/Leexiaop/buzz/blob/1bf6be662b62c3cc29c31979dd4941f9cefb5af2/src/isStatic.ts#L11)

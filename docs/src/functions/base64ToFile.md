@@ -27,4 +27,4 @@
 
 ## 查看源码
 
-base64ToFile.ts:9
+[base64ToFile.ts:9](https://github.com/Leexiaop/buzz/blob/1bf6be662b62c3cc29c31979dd4941f9cefb5af2/src/base64ToFile.ts#L9)

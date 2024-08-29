@@ -22,4 +22,4 @@ getExplorerInfo()    //  {type: 'Chrome', version: 127}
 
 ## 查看源码
 
-getExplorerInfo.ts:11
+[getExplorerInfo.ts:11](https://github.com/Leexiaop/buzz/blob/1bf6be662b62c3cc29c31979dd4941f9cefb5af2/src/getExplorerInfo.ts#L11)

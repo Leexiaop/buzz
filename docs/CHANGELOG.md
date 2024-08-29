@@ -1,54 +1,65 @@
 # 更新日志
 
-0.0.4
+共计发布30个函数。
 
-发布函数:
-- isStatic
-- isPrimitive
-- isNative
-- imageToBase64
-- getExplorerInfo
-- fileToBase64
-- blobToBase64
-- base64ToFile
-- baseToBlob
+## v0.0.5
 
-0.0.3
+|函数|作用|
+|:--------------------------------------|:--------------------------------------------------|
+|onThousandsSeprate                     | ```对比版本号```                                   |
+|cashNumberToChinese                    | ```将金额数转为中文```                             |
+|isUrl                                  | ```判断是否为网址```                               |
+|isPostCode                             | ```判断是否为国内合法邮政编码```                    |
 
-发布函数:
-- camelize
-- capitalize
-- isEnglish
-- isJson
-- multiplication
+## v0.0.4
 
-更新函数:
-- add
-- subtraction
+|函数|作用|
+|:--------------------------------------|:--------------------------------------------------|
+|isStatic                               | ```检查是不是非symbol类型的原始数据```              |
+|isPrimitive                            | ```检查是不是原始数据```                            |
+|isNative                               | ```判断是否为浏览器内置方法```                      |
+|imageToBase64                          | ```url链接图片转为base64```                        |
+|getExplorerInfo                        | ```获取浏览器信息```                               |
+|fileToBase64                           | ```file流转为base64```                             |
+|blobToBase64                           | ```blob流转为base64```                             |
+|base64ToFile                           | ```base64转为File流```                             |
+|baseToBlob                             | ```base64转为blob流```                             |
 
-0.0.2 
+## v0.0.3
 
-发布函数：
+|函数|作用|
+|:--------------------------------------|:--------------------------------------------------|
+|camelize                               | ```将非驼峰转为驼峰命名```                          |
+|capitalize                             | ```将首字母转为大写```                              |
+|isEnglish                              | ```判断是不是全英文字符串```                        |
+|isJson                                 | ```判断是不是json结构```                           |
+|multiplication                         | ```计算俩个正整数相乘```                            |
 
-- isMobile
-- isWechat
-- isWorkWechat
-- subtraction
 
-0.0.1
+# v0.0.2 
 
-发布部分函数:
-- arrayToTree
-- onThousandsSeprate
-- numberToChinese
+|函数|作用|
+|:--------------------------------------|:--------------------------------------------------|
+|isMobile                               | ```判断是否为移动设备```                            |
+|isWechat                               | ```判断是否为微信环境```                            |
+|isWorkWechat                           | ```判断是否为企业微信环境```                        |
+|subtraction                            | ```计算俩个正整数的差```                            |
 
-0.0.0
+## v0.0.1
 
-初始化项目，发布部分函数：
+|函数|作用|
+|:--------------------------------------|:--------------------------------------------------|
+|arrayToTree                            | ```将数组转为树形结构```                            |
+|onThousandsSeprate                     | ```将一个数字字符串用千分符等符号分割```             |
+|numberToChinese                        | ```将数字转为中文大写```                            |
 
-- add
-- treeToArray
-- validateEmail
-- validateIdentifyNumber
-- validateIdNumber
-- validatePhoneNumber
+## V0.0.0
+
+|函数|作用|
+|:--------------------------------------|:--------------------------------------------------|
+|add                                    | ```俩数相加，支持大数，但是不支持负数```             |
+|treeToArray                            | ```将树形结构转化为数组```                          |
+|validateEmail                          | ```校验是否为email```                              |
+|validateIdentifyNumber                 | ```校验是否为统一征信码```                          |
+|validateIdNumber                       | ```校验是否为身份证号码```                          |
+|validatePhoneNumber                    | ```校验是否为电话号码```                            |
