@@ -1,3 +1,3 @@
-import { isUrl } from '../src/isUrl';
+import { divide } from '../src/divide';
 
-console.log(isUrl('https://wwww.ibadgers.cn.com'));
+console.log(divide(7, -3));
