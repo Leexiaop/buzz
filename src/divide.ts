@@ -3,7 +3,6 @@
  * @param {number} divisor
  * @return {number}
  */
-
 export const divide = (dividend, divisor) => {
 	let result = 0,
 		sign = 1,
