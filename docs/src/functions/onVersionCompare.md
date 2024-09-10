@@ -31,4 +31,4 @@ onVersionCompare("1.2.4", "1.2.4")   //  0
 
 ## 查看源码
 
-onVersionCompare.ts:14
+[onVersionCompare.ts:14](https://github.com/Leexiaop/buzz/blob/cc7ebdce95907736175ef75943200be67c26217f/src/onVersionCompare.ts#L14)

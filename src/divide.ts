@@ -1,9 +1,15 @@
 /**
- * @param {number} dividend
- * @param {number} divisor
+ * 俩数相除
+ * @group 工具函数
+ * @param {number} dividend 除数
+ * @param {number} divisor 被除数
  * @return {number}
+ * @example
+ * ```ts
+ * divide(6, 3)     //  2
+ * ```
  */
-export const divide = (dividend, divisor) => {
+export const divide = (dividend:number, divisor:number):number => {
 	let result = 0,
 		sign = 1,
 		mul = 1;

@@ -29,4 +29,4 @@ isPostCode("100000")     //  true
 
 ## 查看源码
 
-isPostCode.ts:12
+[isPostCode.ts:12](https://github.com/Leexiaop/buzz/blob/cc7ebdce95907736175ef75943200be67c26217f/src/isPostCode.ts#L12)

@@ -23,4 +23,4 @@ blob转为base64
 
 ## 查看源码
 
-[blobToBase64.ts:8](https://github.com/Leexiaop/buzz/blob/1bf6be662b62c3cc29c31979dd4941f9cefb5af2/src/blobToBase64.ts#L8)
+[blobToBase64.ts:8](https://github.com/Leexiaop/buzz/blob/cc7ebdce95907736175ef75943200be67c26217f/src/blobToBase64.ts#L8)

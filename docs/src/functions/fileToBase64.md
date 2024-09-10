@@ -23,4 +23,4 @@ file转为base64
 
 ## 查看源码
 
-[fileToBase64.ts:8](https://github.com/Leexiaop/buzz/blob/1bf6be662b62c3cc29c31979dd4941f9cefb5af2/src/fileToBase64.ts#L8)
+[fileToBase64.ts:8](https://github.com/Leexiaop/buzz/blob/cc7ebdce95907736175ef75943200be67c26217f/src/fileToBase64.ts#L8)

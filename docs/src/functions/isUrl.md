@@ -27,4 +27,4 @@ isUrl("https://www.ibadgers.cn/buzzs/")  //  true
 
 ## 查看源码
 
-isUrl.ts:10
+[isUrl.ts:10](https://github.com/Leexiaop/buzz/blob/cc7ebdce95907736175ef75943200be67c26217f/src/isUrl.ts#L10)

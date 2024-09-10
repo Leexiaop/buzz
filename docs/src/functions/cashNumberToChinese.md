@@ -32,4 +32,4 @@ cashNumberToChinese('211234.89')    //  贰拾壹万壹仟贰佰叁拾肆捌角�
 
 ## 查看源码
 
-cashNumberToChinese.ts:12
+[cashNumberToChinese.ts:12](https://github.com/Leexiaop/buzz/blob/cc7ebdce95907736175ef75943200be67c26217f/src/cashNumberToChinese.ts#L12)

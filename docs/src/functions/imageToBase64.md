@@ -28,4 +28,4 @@
 
 ## 查看源码
 
-[imageToBase64.ts:11](https://github.com/Leexiaop/buzz/blob/1bf6be662b62c3cc29c31979dd4941f9cefb5af2/src/imageToBase64.ts#L11)
+[imageToBase64.ts:11](https://github.com/Leexiaop/buzz/blob/cc7ebdce95907736175ef75943200be67c26217f/src/imageToBase64.ts#L11)
